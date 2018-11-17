@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenny-hibino/react-places-autocomplete.git"
+    "url": "https://github.com/joelwmale/react-places-autocomplete.git"
   },
   "keywords": [
     "React.js",
@@ -52,12 +52,12 @@
     "dist",
     "README.md"
   ],
-  "author": "Ken Hibino <ken.hibino7@gmail.com> (http://www.kenhibino.com/)",
+  "author": "Joel Male <joel@joelmale.com> (https://www.joelmale.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kenny-hibino/react-places-autocomplete/issues"
+    "url": "https://github.com/joelwmale/react-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/kenny-hibino/react-places-autocomplete#readme",
+  "homepage": "https://github.com/joelwmale/react-places-autocomplete#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "8.2.2",

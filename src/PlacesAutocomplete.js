@@ -1,7 +1,7 @@
 /*
 * Copyright (c) 2016-present, Ken Hibino.
 * Licensed under the MIT License (MIT).
-* See https://kenny-hibino.github.io/react-places-autocomplete
+* See https://joelwmale.github.io/react-places-autocomplete
 */
 
 import React from 'react';
@@ -55,13 +55,13 @@ class PlacesAutocomplete extends React.Component {
   init = () => {
     if (!window.google) {
       throw new Error(
-        '[react-places-autocomplete]: Google Maps JavaScript API library must be loaded. See: https://github.com/kenny-hibino/react-places-autocomplete#load-google-library'
+        '[react-places-autocomplete]: Google Maps JavaScript API library must be loaded. See: https://github.com/joelwmale/react-places-autocomplete#load-google-library'
       );
     }
 
     if (!window.google.maps.places) {
       throw new Error(
-        '[react-places-autocomplete]: Google Maps Places library must be loaded. Please add `libraries=places` to the src URL. See: https://github.com/kenny-hibino/react-places-autocomplete#load-google-library'
+        '[react-places-autocomplete]: Google Maps Places library must be loaded. Please add `libraries=places` to the src URL. See: https://github.com/joelwmale/react-places-autocomplete#load-google-library'
       );
     }
 
@@ -125,12 +125,13 @@ class PlacesAutocomplete extends React.Component {
     });
   };
 
-  handleSelect = (address, placeId) => {
+  handleSelect = (suggestion) => {
     this.clearSuggestions();
+    const { description, placeId } = suggestion;
     if (this.props.onSelect) {
-      this.props.onSelect(address, placeId);
+      this.props.onSelect(description, placeId, suggestion);
     } else {
-      this.props.onChange(address);
+      this.props.onChange(description);
     }
   };
 
@@ -154,9 +155,9 @@ class PlacesAutocomplete extends React.Component {
   handleEnterKey = () => {
     const activeSuggestion = this.getActiveSuggestion();
     if (activeSuggestion === undefined) {
-      this.handleSelect(this.props.value, null);
+      this.handleSelect(this.props.value);
     } else {
-      this.handleSelect(activeSuggestion.description, activeSuggestion.placeId);
+      this.handleSelect(activeSuggestion);
     }
   };
 
@@ -346,8 +347,7 @@ class PlacesAutocomplete extends React.Component {
     if (event && event.preventDefault) {
       event.preventDefault();
     }
-    const { description, placeId } = suggestion;
-    this.handleSelect(description, placeId);
+    this.handleSelect(suggestion);
     setTimeout(() => {
       this.mousedownOnSuggestion = false;
     });

@@ -1,14 +1,16 @@
-[![travis build](https://img.shields.io/travis/kenny-hibino/react-places-autocomplete.svg?style=flat-square)](https://travis-ci.org/kenny-hibino/react-places-autocomplete)
+[![travis build](https://img.shields.io/travis/joelwmale/react-places-autocomplete.svg?style=flat-square)](https://travis-ci.org/joelwmale/react-places-autocomplete)
 [![MIT-License](https://img.shields.io/npm/l/react-places-autocomplete.svg?style=flat-square)]()
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/react-places-autocomplete/Lobby)
+
 
 # React Places Autocomplete
 
 A React component to build a customized UI for Google Maps Places Autocomplete
 
-### Demo
+Oririginally maintained [here.](https://github.com/hibiken/react-places-autocomplete)
 
-Live demo: [hibiken.github.io/react-places-autocomplete/](https://hibiken.github.io/react-places-autocomplete/)
+<!-- ### Demo
+
+Live demo: [hibiken.github.io/react-places-autocomplete/](https://hibiken.github.io/react-places-autocomplete/) -->
 
 ### Features
 
