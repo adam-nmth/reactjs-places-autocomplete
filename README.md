@@ -1,5 +1,5 @@
 [![travis build](https://travis-ci.org/joelwmale/reactjs-places-autocomplete.svg?branch=master)](https://travis-ci.org/joelwmale/reactjs-places-autocomplete)
-[![MIT-License](https://img.shields.io/npm/l/reactjs-places-autocomplete.svg?style=flat-square)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 # React Places Autocomplete
