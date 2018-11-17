@@ -1,6 +1,6 @@
 {
-  "name": "react-places-autocomplete",
-  "version": "7.2.0",
+  "name": "reactjs-places-autocomplete",
+  "version": "7.2.1",
   "description": "A React component for Google Maps Places Autocomplete",
   "main": "dist/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joelwmale/react-places-autocomplete.git"
+    "url": "https://github.com/joelwmale/reactjs-places-autocomplete.git"
   },
   "keywords": [
     "React.js",
@@ -55,9 +55,9 @@
   "author": "Joel Male <joel@joelmale.com> (https://www.joelmale.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joelwmale/react-places-autocomplete/issues"
+    "url": "https://github.com/joelwmale/reactjs-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/joelwmale/react-places-autocomplete#readme",
+  "homepage": "https://github.com/joelwmale/reactjs-places-autocomplete#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "8.2.2",
