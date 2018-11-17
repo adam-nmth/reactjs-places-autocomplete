@@ -1,4 +1,4 @@
-[![travis build](https://img.shields.io/travis/joelwmale/reactjs-places-autocomplete.svg?style=flat-square)](https://travis-ci.org/joelwmale/reactjs-places-autocomplete)
+[![travis build](https://travis-ci.org/joelwmale/reactjs-places-autocomplete.svg?branch=master)](https://travis-ci.org/joelwmale/reactjs-places-autocomplete)
 [![MIT-License](https://img.shields.io/npm/l/reactjs-places-autocomplete.svg?style=flat-square)]()
 
 
